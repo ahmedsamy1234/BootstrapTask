@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  },
+  "name": "ahmed",
+  "version": "1.0.0",
+  "description": "ahme",
+  "main": "index.js",
+  "scripts": {
+    "test": "what"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "smsm"
+  ],
+  "author": "ahmed",
+  "license": "ISC"
+}
