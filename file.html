@@ -46,7 +46,7 @@
     .rectangle {
 
       background-color:rgb(0, 255, 85);
-
+      
       height: 160px;
       border-radius: 50%;
     }
@@ -94,7 +94,9 @@
 <body>
 
   <div class="row">
-    <div class="col-2 h-100 d-lg-block d-none">
+
+    <!-- --------------------------- Primary circles-------------------- -->
+    <div class="col-lg-2 h-100 d-md-none d-sm-none d-lg-block">
       <div class="row d-flex flex-column justify-content-center">
 
 
@@ -109,21 +111,21 @@
         </div>
 
         <div class="rectangle col-lg-6  my-5 mx-auto">
-          sd
+          <span></span>
         </div>
         <div class="rectangle col-lg-6 my-5 mx-auto ">
-          sd
+          <span></span>
         </div>
         <div class="rectangle col-lg-6 my-5 mx-auto">
-          ""
+          <span></span>
         </div>
         <div class="rectangle col-lg-6 my-5 mx-auto ">
-          sd
+          <span></span>
         </div>
       </div>
     </div>
 
-    <div class="col-12 h-100 d-lg-none d-block">
+    <div class="col-lg-12 h-100 d-lg-none d-sm-none d-md-block">
       <div class="row d-flex flex-row justify-content-center">
 
 
@@ -152,6 +154,28 @@
       </div>
     </div>
 
+    <div class="col-lg-12 h-100 d-lg-none d-md-none d-sm-block">
+      <div class="row d-flex flex-row justify-content-between">
+
+
+        <div class="row d-flex flex-row justify-content-center">
+        <div class=" rectangle col-4  my-5 mx-auto ">
+          sd
+        </div>
+      </div>
+        <div class=" w-25 rectangle col-4 my-5 mx-auto ">
+        
+        </div>
+        <div class=" w-25 rectangle col-4 my-5 mx-auto">
+          ""
+        </div>
+        <div class="w-25 rectangle col-4 my-5 mx-auto ">
+          sd
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------- Pargraph and Images-------------------- -->
     <div class="col-lg-10 col-md-12 col-sm-12">
       <div class="row">
         <div class="col-12">
@@ -166,20 +190,23 @@
 
           <div class="row d-flex">
 
-            <div class="col-lg-3 col-md-12 my-5 mr-4 myimg d-flex flex-row justify-content-center">
+            <div class="col-lg-4 col-md-12 my-5 mr-4 myimg d-flex flex-row justify-content-center">
 
               <img src="Images/birme-250x250/29d5724188c5cbef4cd8534d8505f2fb.jpg" alt="" width="250"   class="src mx-auto d-block mr-4">
             </div>
-            <div class="col-lg-3 col-md-12  my-5">
+            <div class="col-lg-4 col-md-12 my-5 mr-4 myimg d-flex flex-row justify-content-center">
 
-              <img src="Images/birme-250x250/6480eb2842109334fa23ba186567b7d7.jpg" alt="" width="250px"  class="src myimmg">
+              <img src="Images/birme-250x250/6480eb2842109334fa23ba186567b7d7.jpg" alt="" width="250"  class="src">
             </div>
-            <div class="col-lg-3 col-md-12  my-5">
+            <div class="col-lg-4 col-md-12 my-5 mr-4 myimg d-flex flex-row justify-content-center">
 
-              <img src="Images/birme-250x250/9ca7370c643f01bd1fa1655613ff0aac.jpg" alt="" class="src">
+              <img src="Images/birme-250x250/9ca7370c643f01bd1fa1655613ff0aac.jpg" width="250" alt="" class="src">
             </div>
           </div>
         </div>
+
+            <!-- --------------------------- Paragraph And Video-------------------- -->
+
         <div class="col-12">
 
           <div class="row">
@@ -252,14 +279,19 @@
     <div class="col-12">
 
       <div class="row">
-        <div class="col-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=kZMxtZTkGd4&ab_channel=%D9%83%D9%88%D9%81%D9%8A%D8%AF%D9%88%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1" allowfullscreen></iframe>
-          </div>
-          <div class="col-6">
-            lo
+        <div class="col-4">
 
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" width="500" height="300"src="https://www.youtube.com/embed/kZMxtZTkGd4"></iframe>
+          </div> 
           </div>
+  
+       
+        <div class="col-6  mt-5">
+            <p class="primary-pragraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus molestiae error rerum incidunt deserunt impedit optio hic aliquam neque perspiciatis consequuntur quas, obcaecati nulla debitis officia pariatur possimus odio molestias?
+            </p>
+  
         </div>
       </div>
     </div>
